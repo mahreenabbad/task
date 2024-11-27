@@ -50,3 +50,5 @@ contract FIFO {
         return (item.user, item.amount);
     }
 }
+//Popping an empty queue should revert.
+//The following gas limits should be met:operationgas limitpush75000pop61000
